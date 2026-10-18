@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Demo App!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Name Input Box -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Submit Name Button -->
+    <Button
+        android:id="@+id/btnGreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Hello"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Counter Display -->
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count: 0"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Increment Counter Button -->
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to Count" />
+
+</LinearLayout>
